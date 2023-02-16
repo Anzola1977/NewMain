@@ -14,23 +14,20 @@ public class Main {
         String conerr = "Произошла ошибка подключения к бд";
 
 //        Connection connection = null;
-        try {
-            Connection connection = DriverManager.getConnection(URL, username, password);
+        try (Connection connection = DriverManager.getConnection(URL, username, password);
+             Statement statement = connection.createStatement();
+             ResultSet resultSet = statement.executeQuery(sql)){
             System.out.println(String.format("%s", conok));
-            Statement statement = connection.createStatement();
             boolean isExecuted = statement.execute(sql);
             if (isExecuted) {
                 System.out.println("Select executed");
             }
-            ResultSet resultSet = statement.executeQuery(sql);
             System.out.println("ID");
             System.out.println("||------------||");
             while (resultSet.next()) {
                 System.out.println(resultSet.getInt("ID"));
             }
             System.out.println("||------------||");
-            connection.close();
-            statement.close();
         } catch (SQLException e) {
             System.out.println(String.format("%s", conerr));
             e.printStackTrace();
