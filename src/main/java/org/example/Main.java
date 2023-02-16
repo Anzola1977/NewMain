@@ -13,27 +13,15 @@ public class Main {
         String conok = "Соединение с бд установлено";
         String conerr = "Произошла ошибка подключения к бд";
 
-        Connection connection = null;
+//        Connection connection = null;
         try {
-            connection = DriverManager.getConnection(URL, username, password);
+            Connection connection = DriverManager.getConnection(URL, username, password);
             System.out.println(String.format("%s", conok));
-        } catch (SQLException e) {
-            System.out.println(String.format("%s", conerr));
-            e.printStackTrace();
-        }
-
-        Statement statement = null;
-        try {
-            statement = connection.createStatement();
+            Statement statement = connection.createStatement();
             boolean isExecuted = statement.execute(sql);
             if (isExecuted) {
                 System.out.println("Select executed");
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        try {
             ResultSet resultSet = statement.executeQuery(sql);
             System.out.println("ID");
             System.out.println("||------------||");
@@ -44,6 +32,7 @@ public class Main {
             connection.close();
             statement.close();
         } catch (SQLException e) {
+            System.out.println(String.format("%s", conerr));
             e.printStackTrace();
         }
     }

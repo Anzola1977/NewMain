@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="First commit with throws (without try/catch)">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="Second commit with try/catch - working">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676470899883</updated>
-      <workItem from="1676470901497" duration="12435000" />
+      <workItem from="1676470901497" duration="12639000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with throws (without try/catch)">
       <created>1676480623394</created>
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676480623394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit with try/catch - working">
+      <created>1676500385887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676500385887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit with throws (without try/catch)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit with throws (without try/catch)" />
+    <MESSAGE value="Second commit with try/catch - working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit with try/catch - working" />
   </component>
 </project>
