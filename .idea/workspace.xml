@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="commit with 1 try/catch - working">
+    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="commit with try with resources - working">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -59,7 +62,13 @@
       <option name="presentableId" value="Default" />
       <updated>1676470899883</updated>
       <workItem from="1676470901497" duration="12639000" />
-      <workItem from="1676542928711" duration="986000" />
+      <workItem from="1676542928711" duration="2238000" />
+      <workItem from="1676564791503" duration="1924000" />
+      <workItem from="1676567504663" duration="8000" />
+      <workItem from="1676567517184" duration="4121000" />
+      <workItem from="1676603107106" duration="473000" />
+      <workItem from="1676639031677" duration="2237000" />
+      <workItem from="1676708025705" duration="4549000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with throws (without try/catch)">
       <created>1676480623394</created>
@@ -82,16 +91,35 @@
       <option name="project" value="LOCAL" />
       <updated>1676543230746</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit with try with resources - working">
+      <created>1676543957270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676543957270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit with throws (without try/catch)" />
     <MESSAGE value="Second commit with try/catch - working" />
     <MESSAGE value="commit with 1 try/catch - working" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit with 1 try/catch - working" />
+    <MESSAGE value="commit with try with resources - working" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit with try with resources - working" />
   </component>
 </project>

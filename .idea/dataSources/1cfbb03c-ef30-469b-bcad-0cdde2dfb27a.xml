@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>975</IntrospectionStateNumber>
+      <IntrospectionStateNumber>984</IntrospectionStateNumber>
       <ServerVersion>14.5</ServerVersion>
-      <StartupTime>1676462014</StartupTime>
+      <StartupTime>1676699062</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -799,7 +799,7 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>975</IntrospectionStateNumber>
+      <IntrospectionStateNumber>981</IntrospectionStateNumber>
       <ObjectId>16697</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -820,7 +820,7 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>951</IntrospectionStateNumber>
+      <IntrospectionStateNumber>984</IntrospectionStateNumber>
       <ObjectId>13754</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4258,7 +4258,7 @@ false Zulu
       <OwnerName>postgres</OwnerName>
     </schema>
     <schema id="266" parent="2" name="test">
-      <IntrospectionStateNumber>975</IntrospectionStateNumber>
+      <IntrospectionStateNumber>981</IntrospectionStateNumber>
       <ObjectId>16701</ObjectId>
       <StateNumber>956</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -7678,7 +7678,7 @@ false Zulu
     <schema id="514" parent="4" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>951</IntrospectionStateNumber>
+      <IntrospectionStateNumber>984</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -7697,7 +7697,7 @@ false Zulu
     </table>
     <table id="517" parent="266" name="Test">
       <ObjectId>16702</ObjectId>
-      <StateNumber>963</StateNumber>
+      <StateNumber>977</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -7727,7 +7727,7 @@ false Zulu
     </table>
     <table id="522" parent="514" name="test">
       <ObjectId>16694</ObjectId>
-      <StateNumber>925</StateNumber>
+      <StateNumber>983</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -7737,7 +7737,13 @@ false Zulu
       <StateNumber>963</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="524" parent="520" name="id_cat">
+    <column id="524" parent="517" name="Name">
+      <DasType>varchar|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>977</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="525" parent="520" name="id_cat">
       <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;cat_id_cat_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -7746,25 +7752,25 @@ false Zulu
       <SequenceId>16646</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="525" parent="520" name="title">
+    <column id="526" parent="520" name="title">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
       <StateNumber>877</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="526" parent="520" name="colour">
+    <column id="527" parent="520" name="colour">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
       <StateNumber>877</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="527" parent="520" name="milk_id">
+    <column id="528" parent="520" name="milk_id">
       <DasType>integer|0s</DasType>
       <Position>4</Position>
       <StateNumber>883</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="528" parent="520" name="cat_milk_id_fkey">
+    <foreign-key id="529" parent="520" name="cat_milk_id_fkey">
       <ColNames>milk_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16655</ObjectId>
@@ -7775,7 +7781,7 @@ false Zulu
       <RefTableName>milk</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="529" parent="520" name="cat_milk_id_fkey1">
+    <foreign-key id="530" parent="520" name="cat_milk_id_fkey1">
       <ColNames>milk_id</ColNames>
       <ObjectId>16660</ObjectId>
       <RefColNames>id_milk</RefColNames>
@@ -7785,7 +7791,7 @@ false Zulu
       <RefTableName>milk</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="530" parent="520" name="cat_milk_id_fkey2">
+    <foreign-key id="531" parent="520" name="cat_milk_id_fkey2">
       <ColNames>milk_id</ColNames>
       <ObjectId>16665</ObjectId>
       <RefColNames>id_milk</RefColNames>
@@ -7795,7 +7801,7 @@ false Zulu
       <RefTableName>milk</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="531" parent="520" name="cat_pkey">
+    <index id="532" parent="520" name="cat_pkey">
       <ColNames>id_cat</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16653</ObjectId>
@@ -7804,14 +7810,14 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="532" parent="520" name="cat_pkey">
+    <key id="533" parent="520" name="cat_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16654</ObjectId>
       <Primary>1</Primary>
       <StateNumber>877</StateNumber>
       <UnderlyingIndexId>16653</UnderlyingIndexId>
     </key>
-    <column id="533" parent="521" name="id_milk">
+    <column id="534" parent="521" name="id_milk">
       <DasType>integer|0s</DasType>
       <DefaultExpression>nextval(&apos;milk_id_milk_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -7820,20 +7826,20 @@ false Zulu
       <SequenceId>16638</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="534" parent="521" name="title">
+    <column id="535" parent="521" name="title">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
       <StateNumber>874</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="535" parent="521" name="price">
+    <column id="536" parent="521" name="price">
       <DasType>double precision|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>874</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <index id="536" parent="521" name="milk_pkey">
+    <index id="537" parent="521" name="milk_pkey">
       <ColNames>id_milk</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16643</ObjectId>
@@ -7842,18 +7848,24 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="537" parent="521" name="milk_pkey">
+    <key id="538" parent="521" name="milk_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16644</ObjectId>
       <Primary>1</Primary>
       <StateNumber>874</StateNumber>
       <UnderlyingIndexId>16643</UnderlyingIndexId>
     </key>
-    <column id="538" parent="522" name="id">
+    <column id="539" parent="522" name="id">
       <DasType>integer|0s</DasType>
       <Position>1</Position>
       <StateNumber>925</StateNumber>
       <TypeId>23</TypeId>
+    </column>
+    <column id="540" parent="522" name="name">
+      <DasType>varchar|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>983</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
   </database-model>
 </dataSource>
