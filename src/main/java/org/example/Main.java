@@ -18,6 +18,7 @@ public class Main {
             System.out.println(String.format("%s", conok));
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setInt(1, count);
+//            preparedStatement.setDate(2, new Date(System.currentTimeMillis()));
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 System.out.println(resultSet.getInt("id") + " | " + resultSet.getString("Name"));

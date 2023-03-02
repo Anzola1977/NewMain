@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="commit with try with resources - working">
+    <list default="true" id="83b07818-f664-4b53-8054-857ac6a3d836" name="Changes" comment="commit with PreparedStatement - working">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/TestDB.sFwclQ/schema/test.kkQ2AA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cfbb03c-ef30-469b-bcad-0cdde2dfb27a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -41,6 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zolaa/module_gradle/init_test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,7 +68,12 @@
       <workItem from="1676567517184" duration="4121000" />
       <workItem from="1676603107106" duration="473000" />
       <workItem from="1676639031677" duration="2237000" />
-      <workItem from="1676708025705" duration="4549000" />
+      <workItem from="1676708025705" duration="8544000" />
+      <workItem from="1677101679824" duration="1028000" />
+      <workItem from="1677659838367" duration="38000" />
+      <workItem from="1677659886366" duration="1729000" />
+      <workItem from="1677714156865" duration="610000" />
+      <workItem from="1677715404846" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="First commit with throws (without try/catch)">
       <created>1676480623394</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676543957270</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit with PreparedStatement - working">
+      <created>1676739157871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676739157871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +132,7 @@
     <MESSAGE value="Second commit with try/catch - working" />
     <MESSAGE value="commit with 1 try/catch - working" />
     <MESSAGE value="commit with try with resources - working" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit with try with resources - working" />
+    <MESSAGE value="commit with PreparedStatement - working" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit with PreparedStatement - working" />
   </component>
 </project>
